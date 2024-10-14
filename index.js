@@ -376,7 +376,7 @@ async function readOptions (config, args) {
 }
 
 function exit (message, code = 1) {
-    console.error(message)
+    console.log(message)
     process.exit(code)
 }
 
